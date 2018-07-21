@@ -29,3 +29,20 @@ Run the following command to run startup migrations.
 ```js
 adonis migration:run
 ```
+
+### Docker
+
+run docker
+
+```cmd
+docker build -t adonis .
+docker run -p 3333:3333 adonis
+```
+
+with docker compose
+
+```cmd
+docker-compose up -d
+```
+
+### MySql image is included
